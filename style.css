@@ -1,0 +1,40 @@
+.btn {
+    background: dodgerblue;
+    margin: 20px;
+    padding: 20px;
+    color: white;
+    border: 1px solid green;
+    box-shadow: 5px;
+    border-radius: 20px;
+    height: 200px;
+    width: 50%;
+    border-radius: 3em;
+}
+
+button {
+    background: fuchsia;
+    color: white;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid orange;
+}
+
+/* when a user hovers */
+button:hover {
+    background: seagreen;
+    color: white;
+}
+
+/* after a link is visited */
+button:visited {
+    color: white;
+    background: orange;
+}
+
+/* the color of the link while its being clicked */
+button:active {
+    border: 1px solid;
+    background: blue;
+    color: white;
+
+}
